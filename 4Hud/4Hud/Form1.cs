@@ -301,6 +301,7 @@ namespace _4Hud
 
         void updateChecker_DoWork(object sender, DoWorkEventArgs e)
         {
+            return;
             WebClient client = new WebClient();
             string s = client.DownloadString(new Uri("http://yuhrney.square7.ch/TF2/4Hud.txt"));
 
